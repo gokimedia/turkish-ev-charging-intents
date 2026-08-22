@@ -1,0 +1,384 @@
+{
+  "stats": {
+    "version": "1.0.0",
+    "generated_at": "2026-08-22",
+    "total_rows": 192,
+    "splits": {
+      "train": 128,
+      "validation": 32,
+      "test": 32
+    },
+    "intents": [
+      {
+        "id": "FIND_STATION",
+        "label_tr": "İstasyon bulma",
+        "rows": 24,
+        "target_path": "/harita"
+      },
+      {
+        "id": "COMPARE_PRICE",
+        "label_tr": "Şarj fiyatı karşılaştırma",
+        "rows": 24,
+        "target_path": "/blog/elektrikli-arac-sarj-fiyatlari"
+      },
+      {
+        "id": "ROUTE_PLANNING",
+        "label_tr": "EV rota planlama",
+        "rows": 24,
+        "target_path": "/harita"
+      },
+      {
+        "id": "CHARGING_SPEED",
+        "label_tr": "Şarj süresi ve güç",
+        "rows": 24,
+        "target_path": "/blog/dc-sarj-suresi"
+      },
+      {
+        "id": "VEHICLE_COMPARISON",
+        "label_tr": "Elektrikli araç karşılaştırma",
+        "rows": 24,
+        "target_path": "/karsilastirma"
+      },
+      {
+        "id": "HOME_CHARGING",
+        "label_tr": "Evde şarj ve wallbox",
+        "rows": 24,
+        "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari"
+      },
+      {
+        "id": "BATTERY_HEALTH",
+        "label_tr": "Batarya sağlığı",
+        "rows": 24,
+        "target_path": "/blog/elektrikli-arac-pil-omru"
+      },
+      {
+        "id": "OWNERSHIP_COST",
+        "label_tr": "Sahip olma maliyeti",
+        "rows": 24,
+        "target_path": "/raporlar"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "id": "tp-01-021",
+      "text": "Konya çevresinde uygun soketli şarj istasyonu arıyorum",
+      "intent": "FIND_STATION",
+      "intent_label_tr": "İstasyon bulma",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-01-022",
+      "text": "Kocaeli içinde yakınımdaki elektrikli araç şarj istasyonu nerede?",
+      "intent": "FIND_STATION",
+      "intent_label_tr": "İstasyon bulma",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-01-023",
+      "text": "Kocaeli için DC hızlı şarj noktalarını göster",
+      "intent": "FIND_STATION",
+      "intent_label_tr": "İstasyon bulma",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-01-024",
+      "text": "Kocaeli çevresinde uygun soketli şarj istasyonu arıyorum",
+      "intent": "FIND_STATION",
+      "intent_label_tr": "İstasyon bulma",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-02-021",
+      "text": "halka açık şarj maliyetinde hangi kalemleri kontrol etmeliyim?",
+      "intent": "COMPARE_PRICE",
+      "intent_label_tr": "Şarj fiyatı karşılaştırma",
+      "target_path": "/blog/elektrikli-arac-sarj-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-02-022",
+      "text": "operatör tarifeleri fiyatlarını nasıl karşılaştırabilirim?",
+      "intent": "COMPARE_PRICE",
+      "intent_label_tr": "Şarj fiyatı karşılaştırma",
+      "target_path": "/blog/elektrikli-arac-sarj-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-02-023",
+      "text": "operatör tarifeleri için kWh başına ücretleri karşılaştır",
+      "intent": "COMPARE_PRICE",
+      "intent_label_tr": "Şarj fiyatı karşılaştırma",
+      "target_path": "/blog/elektrikli-arac-sarj-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-02-024",
+      "text": "operatör tarifeleri maliyetinde hangi kalemleri kontrol etmeliyim?",
+      "intent": "COMPARE_PRICE",
+      "intent_label_tr": "Şarj fiyatı karşılaştırma",
+      "target_path": "/blog/elektrikli-arac-sarj-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-03-021",
+      "text": "Samsun-Trabzon güzergâhında menzile uygun hızlı şarj noktaları hangileri?",
+      "intent": "ROUTE_PLANNING",
+      "intent_label_tr": "EV rota planlama",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-03-022",
+      "text": "Gaziantep-Adana elektrikli araç rotasında nerede şarj etmeliyim?",
+      "intent": "ROUTE_PLANNING",
+      "intent_label_tr": "EV rota planlama",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-03-023",
+      "text": "Gaziantep-Adana yolculuğu için şarj duraklarını planla",
+      "intent": "ROUTE_PLANNING",
+      "intent_label_tr": "EV rota planlama",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-03-024",
+      "text": "Gaziantep-Adana güzergâhında menzile uygun hızlı şarj noktaları hangileri?",
+      "intent": "ROUTE_PLANNING",
+      "intent_label_tr": "EV rota planlama",
+      "target_path": "/harita",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-04-021",
+      "text": "300 kW yazsa da aracım neden daha yavaş şarj oluyor?",
+      "intent": "CHARGING_SPEED",
+      "intent_label_tr": "Şarj süresi ve güç",
+      "target_path": "/blog/dc-sarj-suresi",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-04-022",
+      "text": "350 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?",
+      "intent": "CHARGING_SPEED",
+      "intent_label_tr": "Şarj süresi ve güç",
+      "target_path": "/blog/dc-sarj-suresi",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-04-023",
+      "text": "350 kW şarj gücü gerçek şarj süresini nasıl etkiler?",
+      "intent": "CHARGING_SPEED",
+      "intent_label_tr": "Şarj süresi ve güç",
+      "target_path": "/blog/dc-sarj-suresi",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-04-024",
+      "text": "350 kW yazsa da aracım neden daha yavaş şarj oluyor?",
+      "intent": "CHARGING_SPEED",
+      "intent_label_tr": "Şarj süresi ve güç",
+      "target_path": "/blog/dc-sarj-suresi",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-05-021",
+      "text": "İki elektrikli otomobil arasında garanti farkını nasıl yorumlarım?",
+      "intent": "VEHICLE_COMPARISON",
+      "intent_label_tr": "Elektrikli araç karşılaştırma",
+      "target_path": "/karsilastirma",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-05-022",
+      "text": "Elektrikli araçları toplam sahip olma maliyeti açısından karşılaştır",
+      "intent": "VEHICLE_COMPARISON",
+      "intent_label_tr": "Elektrikli araç karşılaştırma",
+      "target_path": "/karsilastirma",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-05-023",
+      "text": "toplam sahip olma maliyeti benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",
+      "intent": "VEHICLE_COMPARISON",
+      "intent_label_tr": "Elektrikli araç karşılaştırma",
+      "target_path": "/karsilastirma",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-05-024",
+      "text": "İki elektrikli otomobil arasında toplam sahip olma maliyeti farkını nasıl yorumlarım?",
+      "intent": "VEHICLE_COMPARISON",
+      "intent_label_tr": "Elektrikli araç karşılaştırma",
+      "target_path": "/karsilastirma",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-06-021",
+      "text": "açık otopark için evde şarj maliyetini nasıl hesaplarım?",
+      "intent": "HOME_CHARGING",
+      "intent_label_tr": "Evde şarj ve wallbox",
+      "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-06-022",
+      "text": "kiralık konut için elektrikli araç şarj ünitesi nasıl kurulur?",
+      "intent": "HOME_CHARGING",
+      "intent_label_tr": "Evde şarj ve wallbox",
+      "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-06-023",
+      "text": "kiralık konut wallbox kurulumunda hangi elektrik altyapısı gerekir?",
+      "intent": "HOME_CHARGING",
+      "intent_label_tr": "Evde şarj ve wallbox",
+      "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-06-024",
+      "text": "kiralık konut için evde şarj maliyetini nasıl hesaplarım?",
+      "intent": "HOME_CHARGING",
+      "intent_label_tr": "Evde şarj ve wallbox",
+      "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-07-021",
+      "text": "yüzde 100 şarj için batarya kapasite kaybını nasıl yorumlamalıyım?",
+      "intent": "BATTERY_HEALTH",
+      "intent_label_tr": "Batarya sağlığı",
+      "target_path": "/blog/elektrikli-arac-pil-omru",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-07-022",
+      "text": "batarya garantisi batarya sağlığını nasıl etkiler?",
+      "intent": "BATTERY_HEALTH",
+      "intent_label_tr": "Batarya sağlığı",
+      "target_path": "/blog/elektrikli-arac-pil-omru",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-07-023",
+      "text": "batarya garantisi durumunda elektrikli araç bataryası nasıl kontrol edilir?",
+      "intent": "BATTERY_HEALTH",
+      "intent_label_tr": "Batarya sağlığı",
+      "target_path": "/blog/elektrikli-arac-pil-omru",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-07-024",
+      "text": "batarya garantisi için batarya kapasite kaybını nasıl yorumlamalıyım?",
+      "intent": "BATTERY_HEALTH",
+      "intent_label_tr": "Batarya sağlığı",
+      "target_path": "/blog/elektrikli-arac-pil-omru",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-08-021",
+      "text": "sigorta ve vergi hesaba katıldığında elektrikli araç mantıklı mı?",
+      "intent": "OWNERSHIP_COST",
+      "intent_label_tr": "Sahip olma maliyeti",
+      "target_path": "/raporlar",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-08-022",
+      "text": "ikinci el değeri için elektrikli araç toplam maliyetini hesapla",
+      "intent": "OWNERSHIP_COST",
+      "intent_label_tr": "Sahip olma maliyeti",
+      "target_path": "/raporlar",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-08-023",
+      "text": "ikinci el değeri elektrikli araç sahip olma maliyetini nasıl değiştirir?",
+      "intent": "OWNERSHIP_COST",
+      "intent_label_tr": "Sahip olma maliyeti",
+      "target_path": "/raporlar",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    },
+    {
+      "id": "tp-08-024",
+      "text": "ikinci el değeri hesaba katıldığında elektrikli araç mantıklı mı?",
+      "intent": "OWNERSHIP_COST",
+      "intent_label_tr": "Sahip olma maliyeti",
+      "target_path": "/raporlar",
+      "split": "test",
+      "language": "tr",
+      "provenance": "synthetic-editorial"
+    }
+  ]
+}

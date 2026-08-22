@@ -1,0 +1,10 @@
+{
+  "name": "tekpedal-turkish-ev-charging-intents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-dataset.mjs"
+  }
+}
+

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "includes": "cr:includes",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "@id": "https://github.com/gokimedia/turkish-ev-charging-intents",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Turkish EV Charging Intent Dataset",
+  "description": "A balanced Turkish-language dataset of 192 editorially generated electric-vehicle and charging queries across eight intent classes.",
+  "url": "https://gokimedia.github.io/turkish-ev-charging-intents/",
+  "sameAs": "https://tekpedal.com/acik-veri",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "datePublished": "2026-08-22",
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "TekPedal",
+    "url": "https://tekpedal.com/"
+  },
+  "keywords": [
+    "Turkish NLP",
+    "intent classification",
+    "electric vehicles",
+    "EV charging"
+  ],
+  "citeAs": "TekPedal (2026). Turkish EV Charging Intent Dataset, version 1.0.0.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "train.jsonl",
+      "name": "train.jsonl",
+      "contentUrl": "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/train.jsonl",
+      "encodingFormat": "application/jsonl"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "validation.jsonl",
+      "name": "validation.jsonl",
+      "contentUrl": "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/validation.jsonl",
+      "encodingFormat": "application/jsonl"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "test.jsonl",
+      "name": "test.jsonl",
+      "contentUrl": "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/test.jsonl",
+      "encodingFormat": "application/jsonl"
+    }
+  ]
+}
+

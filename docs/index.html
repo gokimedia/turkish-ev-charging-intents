@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Turkish EV Charging Intent Dataset — TekPedal</title>
+    <meta
+      name="description"
+      content="192 Türkçe elektrikli araç ve şarj sorgusundan oluşan, sekiz dengeli niyet sınıfına sahip açık veri setini keşfedin."
+    />
+    <meta name="theme-color" content="#071b1b" />
+    <link rel="canonical" href="https://gokimedia.github.io/turkish-ev-charging-intents/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Turkish EV Charging Intent Dataset" />
+    <meta
+      property="og:description"
+      content="TekPedal tarafından hazırlanan 192 örnekli açık Türkçe EV şarj niyeti veri seti."
+    />
+    <meta property="og:url" content="https://gokimedia.github.io/turkish-ev-charging-intents/" />
+    <meta property="og:image" content="https://gokimedia.github.io/turkish-ev-charging-intents/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Turkish EV Charging Intent Dataset — 192 Turkish queries, 8 intent classes, CC BY 4.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Turkish EV Charging Intent Dataset" />
+    <meta name="twitter:description" content="192 Turkish queries · 8 intent classes · CC BY 4.0" />
+    <meta name="twitter:image" content="https://gokimedia.github.io/turkish-ev-charging-intents/og.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Turkish EV Charging Intent Dataset",
+        "description": "A balanced Turkish-language dataset of 192 editorially generated EV and charging queries across eight intent classes.",
+        "url": "https://gokimedia.github.io/turkish-ev-charging-intents/",
+        "sameAs": [
+          "https://tekpedal.com/acik-veri",
+          "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents"
+        ],
+        "version": "1.0.0",
+        "datePublished": "2026-08-22",
+        "inLanguage": "tr",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Organization",
+          "name": "TekPedal",
+          "url": "https://tekpedal.com/"
+        },
+        "distribution": [
+          {
+            "@type": "DataDownload",
+            "encodingFormat": "application/jsonl",
+            "contentUrl": "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/train.jsonl"
+          },
+          {
+            "@type": "DataDownload",
+            "encodingFormat": "application/jsonl",
+            "contentUrl": "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/test.jsonl"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">İçeriğe geç</a>
+    <header class="site-header">
+      <a class="brand" href="https://tekpedal.com/" aria-label="TekPedal ana sayfa">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>TEKPEDAL <em>OPEN DATA</em></span>
+      </a>
+      <nav aria-label="Ana navigasyon">
+        <a href="#veri">Veri</a>
+        <a href="#siniflar">Sınıflar</a>
+        <a href="#kullanim">Kullanım</a>
+        <a class="nav-cta" href="https://github.com/gokimedia/turkish-ev-charging-intents">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> v1.0.0 · CC BY 4.0 · TÜRKÇE</p>
+          <h1 id="hero-title">Elektrikli ulaşım için <strong>açık Türkçe niyet verisi.</strong></h1>
+          <p class="lede">
+            Şarj istasyonu bulmadan batarya sağlığına uzanan sekiz sınıfta, dengeli ve tekrar üretilebilir
+            bir metin sınıflandırma veri seti.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/gokimedia/turkish-ev-charging-intents/archive/refs/heads/main.zip">Veriyi indir</a>
+            <a class="button secondary" href="#veri">Örnekleri keşfet</a>
+          </div>
+          <p class="provenance-note">
+            <span aria-hidden="true">◆</span> Gerçek kullanıcı kaydı içermez. Tüm örnekler editoryal olarak üretilmiştir.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Veri seti özeti">
+          <div class="signal" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <dl class="metrics">
+            <div><dt>Toplam örnek</dt><dd>192</dd></div>
+            <div><dt>Niyet sınıfı</dt><dd>08</dd></div>
+            <div><dt>Train / val / test</dt><dd>128 / 32 / 32</dd></div>
+            <div><dt>Kişisel veri</dt><dd>Yok</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="explorer section" id="veri" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> VERİ GEZGİNİ</p>
+            <h2 id="explorer-title">Test kümesini inceleyin</h2>
+          </div>
+          <p>Arayın veya bir niyet sınıfı seçin. Gösterilen örnekler sabit test bölümünden gelir.</p>
+        </div>
+
+        <div class="controls">
+          <label class="search-field">
+            <span class="sr-only">Örneklerde ara</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="Örneklerde ara…" autocomplete="off" />
+          </label>
+          <label class="select-field">
+            <span class="sr-only">Niyet sınıfı</span>
+            <select id="intent-filter">
+              <option value="">Tüm niyetler</option>
+            </select>
+          </label>
+          <span class="result-count" id="result-count" aria-live="polite">Yükleniyor…</span>
+        </div>
+
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr><th scope="col">Kimlik</th><th scope="col">Türkçe sorgu</th><th scope="col">Niyet</th><th scope="col">Hedef</th></tr>
+            </thead>
+            <tbody id="examples-body">
+              <tr><td colspan="4" class="loading">Veri seti yükleniyor…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="siniflar" aria-labelledby="classes-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> TAKSONOMİ</p>
+            <h2 id="classes-title">Sekiz dengeli sınıf</h2>
+          </div>
+          <p>Her sınıfta 24 örnek bulunur; veri dağılımı karşılaştırılabilir deneyler için sabittir.</p>
+        </div>
+        <div class="class-grid" id="class-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section usage" id="kullanim" aria-labelledby="usage-title">
+        <div>
+          <p class="eyebrow"><span></span> HIZLI BAŞLANGIÇ</p>
+          <h2 id="usage-title">Tek satırla yükleyin</h2>
+          <p>Pandas ile eğitim bölümünü doğrudan GitHub üzerinden okuyun.</p>
+        </div>
+        <div class="code-card">
+          <div class="code-bar"><span>Python</span><button id="copy-code" type="button">Kopyala</button></div>
+          <pre><code id="code-sample">import pandas as pd
+
+train = pd.read_json(
+    "https://raw.githubusercontent.com/gokimedia/turkish-ev-charging-intents/main/data/train.jsonl",
+    lines=True,
+)</code></pre>
+        </div>
+      </section>
+
+      <section class="responsible section" aria-labelledby="responsible-title">
+        <div class="responsible-copy">
+          <p class="eyebrow light"><span></span> SORUMLU KULLANIM</p>
+          <h2 id="responsible-title">Küçük, şeffaf ve sınırları belgelenmiş.</h2>
+          <p>
+            Bu çalışma arama hacmini, pazar talebini veya kullanıcı davranışını temsil etmez. Üretim sistemleri;
+            gerçek dünya dil çeşitliliği, güncel kaynaklar ve güvenlik testleriyle ayrıca doğrulanmalıdır.
+          </p>
+        </div>
+        <div class="responsible-links">
+          <a href="https://github.com/gokimedia/turkish-ev-charging-intents/blob/main/DATASHEET.md"><span>Datasheet</span><b>Metodoloji ve sınırlamalar →</b></a>
+          <a href="https://github.com/gokimedia/turkish-ev-charging-intents/blob/main/CITATION.cff"><span>Atıf</span><b>CITATION.cff →</b></a>
+          <a href="https://tekpedal.com/acik-veri"><span>Kaynak</span><b>TekPedal açık veri →</b></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">T</span><span>TEKPEDAL <em>OPEN DATA</em></span></div>
+      <p>Türkiye'nin elektrikli ulaşım ekosistemi için açık ve yeniden kullanılabilir kaynaklar.</p>
+      <div><a href="https://tekpedal.com/">TekPedal</a><a href="https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents">Hugging Face</a><a href="https://github.com/gokimedia/turkish-ev-charging-intents">GitHub</a></div>
+    </footer>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

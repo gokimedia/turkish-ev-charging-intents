@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-08-22",
+  "total_rows": 192,
+  "splits": {
+    "train": 128,
+    "validation": 32,
+    "test": 32
+  },
+  "intents": [
+    {
+      "id": "FIND_STATION",
+      "label_tr": "İstasyon bulma",
+      "rows": 24,
+      "target_path": "/harita"
+    },
+    {
+      "id": "COMPARE_PRICE",
+      "label_tr": "Şarj fiyatı karşılaştırma",
+      "rows": 24,
+      "target_path": "/blog/elektrikli-arac-sarj-fiyatlari"
+    },
+    {
+      "id": "ROUTE_PLANNING",
+      "label_tr": "EV rota planlama",
+      "rows": 24,
+      "target_path": "/harita"
+    },
+    {
+      "id": "CHARGING_SPEED",
+      "label_tr": "Şarj süresi ve güç",
+      "rows": 24,
+      "target_path": "/blog/dc-sarj-suresi"
+    },
+    {
+      "id": "VEHICLE_COMPARISON",
+      "label_tr": "Elektrikli araç karşılaştırma",
+      "rows": 24,
+      "target_path": "/karsilastirma"
+    },
+    {
+      "id": "HOME_CHARGING",
+      "label_tr": "Evde şarj ve wallbox",
+      "rows": 24,
+      "target_path": "/blog/elektrikli-arac-sarj-unitesi-fiyatlari"
+    },
+    {
+      "id": "BATTERY_HEALTH",
+      "label_tr": "Batarya sağlığı",
+      "rows": 24,
+      "target_path": "/blog/elektrikli-arac-pil-omru"
+    },
+    {
+      "id": "OWNERSHIP_COST",
+      "label_tr": "Sahip olma maliyeti",
+      "rows": 24,
+      "target_path": "/raporlar"
+    }
+  ]
+}

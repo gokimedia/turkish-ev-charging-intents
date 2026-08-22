@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Turkish EV Charging Intent Dataset"
+type: dataset
+authors:
+  - name: "TekPedal"
+version: 1.0.0
+date-released: 2026-08-22
+license: CC-BY-4.0
+repository-code: "https://github.com/gokimedia/turkish-ev-charging-intents"
+url: "https://tekpedal.com/acik-veri"
+keywords:
+  - Turkish NLP
+  - intent classification
+  - electric vehicles
+  - EV charging
+  - text classification
+abstract: >-
+  A balanced Turkish-language dataset containing 192 editorially generated
+  electric-vehicle and charging queries across eight intent classes.
+
