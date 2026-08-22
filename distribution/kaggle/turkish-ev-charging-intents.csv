@@ -1,0 +1,193 @@
+id,text,intent,intent_label_tr,target_path,split,language,provenance
+tp-01-001,İstanbul içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-002,İstanbul için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-003,İstanbul çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-004,Ankara içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-005,Ankara için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-006,Ankara çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-007,İzmir içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-008,İzmir için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-009,İzmir çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-010,Bursa içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-011,Bursa için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-012,Bursa çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-013,Antalya içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-014,Antalya için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-015,Antalya çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-01-016,Adana içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,train,tr,synthetic-editorial
+tp-02-001,AC şarj fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-002,AC şarj için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-003,AC şarj maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-004,DC şarj fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-005,DC şarj için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-006,DC şarj maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-007,hızlı şarj fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-008,hızlı şarj için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-009,hızlı şarj maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-010,şehir içi şarj fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-011,şehir içi şarj için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-012,şehir içi şarj maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-013,otoyol şarjı fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-014,otoyol şarjı için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-015,otoyol şarjı maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-02-016,gece şarjı fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,train,tr,synthetic-editorial
+tp-03-001,İstanbul-Ankara elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-002,İstanbul-Ankara yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-003,İstanbul-Ankara güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-004,Ankara-İzmir elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-005,Ankara-İzmir yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-006,Ankara-İzmir güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-007,İzmir-Antalya elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-008,İzmir-Antalya yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-009,İzmir-Antalya güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-010,Bursa-Eskişehir elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-011,Bursa-Eskişehir yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-012,Bursa-Eskişehir güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-013,Adana-Mersin elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-014,Adana-Mersin yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-015,Adana-Mersin güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-03-016,Konya-Ankara elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,train,tr,synthetic-editorial
+tp-04-001,50 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-002,50 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-003,50 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-004,90 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-005,90 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-006,90 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-007,120 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-008,120 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-009,120 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-010,150 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-011,150 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-012,150 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-013,180 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-014,180 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-015,180 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-04-016,250 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,train,tr,synthetic-editorial
+tp-05-001,Elektrikli araçları menzil açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-002,"menzil benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-003,İki elektrikli otomobil arasında menzil farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-004,Elektrikli araçları batarya kapasitesi açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-005,"batarya kapasitesi benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-006,İki elektrikli otomobil arasında batarya kapasitesi farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-007,Elektrikli araçları DC şarj gücü açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-008,"DC şarj gücü benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-009,İki elektrikli otomobil arasında DC şarj gücü farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-010,Elektrikli araçları bagaj hacmi açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-011,"bagaj hacmi benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-012,İki elektrikli otomobil arasında bagaj hacmi farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-013,Elektrikli araçları şehir içi tüketim açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-014,"şehir içi tüketim benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-015,İki elektrikli otomobil arasında şehir içi tüketim farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-05-016,Elektrikli araçları otoyol tüketimi açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,train,tr,synthetic-editorial
+tp-06-001,apartman otoparkı için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-002,apartman otoparkı wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-003,apartman otoparkı için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-004,müstakil ev için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-005,müstakil ev wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-006,müstakil ev için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-007,site otoparkı için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-008,site otoparkı wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-009,site otoparkı için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-010,iş yeri için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-011,iş yeri wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-012,iş yeri için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-013,ortak garaj için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-014,ortak garaj wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-015,ortak garaj için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-06-016,kapalı otopark için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,train,tr,synthetic-editorial
+tp-07-001,ikinci el araç batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-002,ikinci el araç durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-003,ikinci el araç için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-004,yüksek kilometre batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-005,yüksek kilometre durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-006,yüksek kilometre için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-007,hızlı şarj kullanımı batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-008,hızlı şarj kullanımı durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-009,hızlı şarj kullanımı için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-010,soğuk hava batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-011,soğuk hava durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-012,soğuk hava için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-013,sıcak hava batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-014,sıcak hava durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-015,sıcak hava için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-07-016,uzun süre park batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,train,tr,synthetic-editorial
+tp-08-001,yıllık 10 bin km için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-002,yıllık 10 bin km elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-003,yıllık 10 bin km hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-004,yıllık 15 bin km için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-005,yıllık 15 bin km elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-006,yıllık 15 bin km hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-007,yıllık 20 bin km için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-008,yıllık 20 bin km elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-009,yıllık 20 bin km hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-010,evde şarj için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-011,evde şarj elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-012,evde şarj hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-013,halka açık şarj için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-014,halka açık şarj elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-015,halka açık şarj hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-08-016,bakım için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,train,tr,synthetic-editorial
+tp-01-017,Adana için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,validation,tr,synthetic-editorial
+tp-01-018,Adana çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,validation,tr,synthetic-editorial
+tp-01-019,Konya içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,validation,tr,synthetic-editorial
+tp-01-020,Konya için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,validation,tr,synthetic-editorial
+tp-02-017,gece şarjı için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,validation,tr,synthetic-editorial
+tp-02-018,gece şarjı maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,validation,tr,synthetic-editorial
+tp-02-019,halka açık şarj fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,validation,tr,synthetic-editorial
+tp-02-020,halka açık şarj için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,validation,tr,synthetic-editorial
+tp-03-017,Konya-Ankara yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,validation,tr,synthetic-editorial
+tp-03-018,Konya-Ankara güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,validation,tr,synthetic-editorial
+tp-03-019,Samsun-Trabzon elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,validation,tr,synthetic-editorial
+tp-03-020,Samsun-Trabzon yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,validation,tr,synthetic-editorial
+tp-04-017,250 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,validation,tr,synthetic-editorial
+tp-04-018,250 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,validation,tr,synthetic-editorial
+tp-04-019,300 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,validation,tr,synthetic-editorial
+tp-04-020,300 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,validation,tr,synthetic-editorial
+tp-05-017,"otoyol tüketimi benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,validation,tr,synthetic-editorial
+tp-05-018,İki elektrikli otomobil arasında otoyol tüketimi farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,validation,tr,synthetic-editorial
+tp-05-019,Elektrikli araçları garanti açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,validation,tr,synthetic-editorial
+tp-05-020,"garanti benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,validation,tr,synthetic-editorial
+tp-06-017,kapalı otopark wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,validation,tr,synthetic-editorial
+tp-06-018,kapalı otopark için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,validation,tr,synthetic-editorial
+tp-06-019,açık otopark için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,validation,tr,synthetic-editorial
+tp-06-020,açık otopark wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,validation,tr,synthetic-editorial
+tp-07-017,uzun süre park durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,validation,tr,synthetic-editorial
+tp-07-018,uzun süre park için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,validation,tr,synthetic-editorial
+tp-07-019,yüzde 100 şarj batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,validation,tr,synthetic-editorial
+tp-07-020,yüzde 100 şarj durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,validation,tr,synthetic-editorial
+tp-08-017,bakım elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,validation,tr,synthetic-editorial
+tp-08-018,bakım hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,validation,tr,synthetic-editorial
+tp-08-019,sigorta ve vergi için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,validation,tr,synthetic-editorial
+tp-08-020,sigorta ve vergi elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,validation,tr,synthetic-editorial
+tp-01-021,Konya çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,test,tr,synthetic-editorial
+tp-01-022,Kocaeli içinde yakınımdaki elektrikli araç şarj istasyonu nerede?,FIND_STATION,İstasyon bulma,/harita,test,tr,synthetic-editorial
+tp-01-023,Kocaeli için DC hızlı şarj noktalarını göster,FIND_STATION,İstasyon bulma,/harita,test,tr,synthetic-editorial
+tp-01-024,Kocaeli çevresinde uygun soketli şarj istasyonu arıyorum,FIND_STATION,İstasyon bulma,/harita,test,tr,synthetic-editorial
+tp-02-021,halka açık şarj maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,test,tr,synthetic-editorial
+tp-02-022,operatör tarifeleri fiyatlarını nasıl karşılaştırabilirim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,test,tr,synthetic-editorial
+tp-02-023,operatör tarifeleri için kWh başına ücretleri karşılaştır,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,test,tr,synthetic-editorial
+tp-02-024,operatör tarifeleri maliyetinde hangi kalemleri kontrol etmeliyim?,COMPARE_PRICE,Şarj fiyatı karşılaştırma,/blog/elektrikli-arac-sarj-fiyatlari,test,tr,synthetic-editorial
+tp-03-021,Samsun-Trabzon güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,test,tr,synthetic-editorial
+tp-03-022,Gaziantep-Adana elektrikli araç rotasında nerede şarj etmeliyim?,ROUTE_PLANNING,EV rota planlama,/harita,test,tr,synthetic-editorial
+tp-03-023,Gaziantep-Adana yolculuğu için şarj duraklarını planla,ROUTE_PLANNING,EV rota planlama,/harita,test,tr,synthetic-editorial
+tp-03-024,Gaziantep-Adana güzergâhında menzile uygun hızlı şarj noktaları hangileri?,ROUTE_PLANNING,EV rota planlama,/harita,test,tr,synthetic-editorial
+tp-04-021,300 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,test,tr,synthetic-editorial
+tp-04-022,350 kW DC istasyonda yüzde 10-80 şarj ne kadar sürer?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,test,tr,synthetic-editorial
+tp-04-023,350 kW şarj gücü gerçek şarj süresini nasıl etkiler?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,test,tr,synthetic-editorial
+tp-04-024,350 kW yazsa da aracım neden daha yavaş şarj oluyor?,CHARGING_SPEED,Şarj süresi ve güç,/blog/dc-sarj-suresi,test,tr,synthetic-editorial
+tp-05-021,İki elektrikli otomobil arasında garanti farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,test,tr,synthetic-editorial
+tp-05-022,Elektrikli araçları toplam sahip olma maliyeti açısından karşılaştır,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,test,tr,synthetic-editorial
+tp-05-023,"toplam sahip olma maliyeti benim için önemli, hangi elektrikli araçları kıyaslamalıyım?",VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,test,tr,synthetic-editorial
+tp-05-024,İki elektrikli otomobil arasında toplam sahip olma maliyeti farkını nasıl yorumlarım?,VEHICLE_COMPARISON,Elektrikli araç karşılaştırma,/karsilastirma,test,tr,synthetic-editorial
+tp-06-021,açık otopark için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,test,tr,synthetic-editorial
+tp-06-022,kiralık konut için elektrikli araç şarj ünitesi nasıl kurulur?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,test,tr,synthetic-editorial
+tp-06-023,kiralık konut wallbox kurulumunda hangi elektrik altyapısı gerekir?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,test,tr,synthetic-editorial
+tp-06-024,kiralık konut için evde şarj maliyetini nasıl hesaplarım?,HOME_CHARGING,Evde şarj ve wallbox,/blog/elektrikli-arac-sarj-unitesi-fiyatlari,test,tr,synthetic-editorial
+tp-07-021,yüzde 100 şarj için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,test,tr,synthetic-editorial
+tp-07-022,batarya garantisi batarya sağlığını nasıl etkiler?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,test,tr,synthetic-editorial
+tp-07-023,batarya garantisi durumunda elektrikli araç bataryası nasıl kontrol edilir?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,test,tr,synthetic-editorial
+tp-07-024,batarya garantisi için batarya kapasite kaybını nasıl yorumlamalıyım?,BATTERY_HEALTH,Batarya sağlığı,/blog/elektrikli-arac-pil-omru,test,tr,synthetic-editorial
+tp-08-021,sigorta ve vergi hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,test,tr,synthetic-editorial
+tp-08-022,ikinci el değeri için elektrikli araç toplam maliyetini hesapla,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,test,tr,synthetic-editorial
+tp-08-023,ikinci el değeri elektrikli araç sahip olma maliyetini nasıl değiştirir?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,test,tr,synthetic-editorial
+tp-08-024,ikinci el değeri hesaba katıldığında elektrikli araç mantıklı mı?,OWNERSHIP_COST,Sahip olma maliyeti,/raporlar,test,tr,synthetic-editorial

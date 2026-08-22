@@ -1,0 +1,67 @@
+{
+  "title": "Turkish EV Charging Intent Dataset",
+  "subtitle": "192 Turkish EV charging queries across eight balanced intent classes",
+  "description": "A compact Turkish-language text-classification dataset for EV and charging assistants. The 192 synthetic-editorial queries are balanced across eight intent classes and include fixed train, validation, and test splits. This is not search-log or customer data and contains no personal data. Canonical source: https://github.com/gokimedia/turkish-ev-charging-intents — Documentation: https://tekpedal.com/acik-veri",
+  "id": "OWNER_SLUG/turkish-ev-charging-intents",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "path": "turkish-ev-charging-intents.csv",
+      "description": "All 192 examples, including the original fixed split label.",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "Stable example identifier.",
+            "type": "id"
+          },
+          {
+            "name": "text",
+            "description": "Synthetic-editorial Turkish EV or charging query.",
+            "type": "string"
+          },
+          {
+            "name": "intent",
+            "description": "One of eight intent identifiers; the default prediction target.",
+            "type": "string"
+          },
+          {
+            "name": "intent_label_tr",
+            "description": "Human-readable Turkish intent label.",
+            "type": "string"
+          },
+          {
+            "name": "target_path",
+            "description": "Suggested TekPedal content route for the intent.",
+            "type": "string"
+          },
+          {
+            "name": "split",
+            "description": "Fixed train, validation, or test split.",
+            "type": "string"
+          },
+          {
+            "name": "language",
+            "description": "BCP 47 language code; tr in version 1.0.0.",
+            "type": "string"
+          },
+          {
+            "name": "provenance",
+            "description": "Data origin; synthetic-editorial in version 1.0.0.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "nlp",
+    "text classification",
+    "electric vehicles",
+    "turkish"
+  ]
+}

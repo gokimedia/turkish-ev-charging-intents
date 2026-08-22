@@ -15,6 +15,8 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
 - [Hugging Face interactive Space](https://huggingface.co/spaces/FoodSecuriry/tekpedal-ev-intent-explorer)
 
+Publication metadata and repeatable export helpers for Zenodo, Kaggle, and OpenML are maintained in [`distribution/`](distribution/). Platform URLs are added here only after the corresponding public record is live.
+
 ## Dataset at a glance
 
 | Property | Value |
@@ -97,4 +99,3 @@ Use the metadata in [CITATION.cff](CITATION.cff). Until a DOI-backed release is 
 ## License
 
 The dataset and documentation are licensed under [Creative Commons Attribution 4.0 International](LICENSE). Attribute the work as “TekPedal Turkish EV Charging Intent Dataset, v1.0.0.” Brand names and trademarks remain the property of their respective owners.
-
