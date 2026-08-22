@@ -44,7 +44,12 @@
   "name": "Turkish EV Charging Intent Dataset",
   "description": "A balanced Turkish-language dataset of 192 editorially generated electric-vehicle and charging queries across eight intent classes.",
   "url": "https://gokimedia.github.io/turkish-ev-charging-intents/",
-  "sameAs": "https://tekpedal.com/acik-veri",
+  "identifier": "https://doi.org/10.5281/zenodo.22062688",
+  "sameAs": [
+    "https://tekpedal.com/acik-veri",
+    "https://zenodo.org/records/22062688",
+    "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents"
+  ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "version": "1.0.0",
   "datePublished": "2026-08-22",
@@ -59,7 +64,7 @@
     "electric vehicles",
     "EV charging"
   ],
-  "citeAs": "TekPedal (2026). Turkish EV Charging Intent Dataset, version 1.0.0.",
+  "citeAs": "https://doi.org/10.5281/zenodo.22062688",
   "distribution": [
     {
       "@type": "cr:FileObject",
@@ -84,4 +89,3 @@
     }
   ]
 }
-

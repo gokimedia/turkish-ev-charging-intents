@@ -6,6 +6,7 @@ authors:
   - name: "TekPedal"
 version: 1.0.0
 date-released: 2026-08-22
+doi: 10.5281/zenodo.22062688
 license: CC-BY-4.0
 repository-code: "https://github.com/gokimedia/turkish-ev-charging-intents"
 url: "https://tekpedal.com/acik-veri"
@@ -18,4 +19,3 @@ keywords:
 abstract: >-
   A balanced Turkish-language dataset containing 192 editorially generated
   electric-vehicle and charging queries across eight intent classes.
-

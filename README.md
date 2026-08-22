@@ -2,6 +2,7 @@
 
 [![Dataset validation](https://github.com/gokimedia/turkish-ev-charging-intents/actions/workflows/validate.yml/badge.svg)](https://github.com/gokimedia/turkish-ev-charging-intents/actions/workflows/validate.yml)
 [![GitHub Pages](https://github.com/gokimedia/turkish-ev-charging-intents/actions/workflows/pages.yml/badge.svg)](https://github.com/gokimedia/turkish-ev-charging-intents/actions/workflows/pages.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22062688.svg)](https://doi.org/10.5281/zenodo.22062688)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-00a86b.svg)](LICENSE)
 
 A compact, balanced Turkish-language dataset for routing electric-vehicle and charging questions. It contains 192 editorially generated queries across eight intent classes, with fixed train, validation, and test splits.
@@ -12,6 +13,7 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 
 - [Interactive GitHub Pages explorer](https://gokimedia.github.io/turkish-ev-charging-intents/)
 - [TekPedal open-data page](https://tekpedal.com/acik-veri)
+- [Zenodo archival record (DOI: 10.5281/zenodo.22062688)](https://doi.org/10.5281/zenodo.22062688)
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
 - [Hugging Face interactive Space](https://huggingface.co/spaces/FoodSecuriry/tekpedal-ev-intent-explorer)
 
@@ -83,7 +85,7 @@ The validator checks row counts, fixed splits, stable IDs, required fields, allo
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). Until a DOI-backed release is available, cite this repository and the version tag.
+Use the versioned Zenodo record and the metadata in [CITATION.cff](CITATION.cff): [10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688).
 
 ```bibtex
 @dataset{tekpedal_turkish_ev_intents_2026,
@@ -91,7 +93,9 @@ Use the metadata in [CITATION.cff](CITATION.cff). Until a DOI-backed release is 
   author  = {{TekPedal}},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/gokimedia/turkish-ev-charging-intents},
+  publisher = {Zenodo},
+  doi     = {10.5281/zenodo.22062688},
+  url     = {https://doi.org/10.5281/zenodo.22062688},
   license = {CC-BY-4.0}
 }
 ```

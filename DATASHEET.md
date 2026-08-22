@@ -50,9 +50,8 @@ Report macro F1 alongside per-class precision, recall, F1, and the confusion mat
 
 ## Maintenance
 
-TekPedal maintains the dataset. Releases follow semantic versioning. Record or split changes require a new version and changelog entry. Older releases remain available through Git tags and external archives when configured.
+TekPedal maintains the dataset. Releases follow semantic versioning. Record or split changes require a new version and changelog entry. Version 1.0.0 is permanently archived on Zenodo under [DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688); older releases remain available through Git tags and external archives.
 
 ## Licensing
 
 The dataset and its documentation are licensed under CC BY 4.0. Contributors must have the right to license every submitted record on those terms.
-
