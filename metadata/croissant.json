@@ -48,6 +48,7 @@
   "sameAs": [
     "https://tekpedal.com/acik-veri",
     "https://zenodo.org/records/22062688",
+    "https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset",
     "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",

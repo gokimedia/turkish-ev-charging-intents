@@ -14,6 +14,7 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 - [Interactive GitHub Pages explorer](https://gokimedia.github.io/turkish-ev-charging-intents/)
 - [TekPedal open-data page](https://tekpedal.com/acik-veri)
 - [Zenodo archival record (DOI: 10.5281/zenodo.22062688)](https://doi.org/10.5281/zenodo.22062688)
+- [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset)
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
 - [Hugging Face interactive Space](https://huggingface.co/spaces/FoodSecuriry/tekpedal-ev-intent-explorer)
 
