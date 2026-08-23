@@ -41,6 +41,11 @@
       "resource_type": "dataset"
     },
     {
+      "identifier": "https://doi.org/10.6084/m9.figshare.33317592",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
       "identifier": "https://tekpedal.com/acik-veri",
       "relation": "isDocumentedBy",
       "resource_type": "publication-other"

@@ -50,6 +50,7 @@
     "https://zenodo.org/records/22062688",
     "https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset",
     "https://www.openml.org/d/47280",
+    "https://figshare.com/articles/dataset/Turkish_EV_Charging_Intent_Dataset/33317592",
     "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
