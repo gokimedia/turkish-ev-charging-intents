@@ -1,0 +1,33 @@
+{
+  "title": "Turkish EV Charging Intent Dataset",
+  "category": "data",
+  "description": "A balanced Turkish-language dataset containing 192 synthetic-editorial electric-vehicle and charging queries across eight intent classes, with fixed train, validation, and test splits. Intended uses include Turkish intent classification, routing evaluation, and deterministic regression testing. The dataset contains no search logs, customer conversations, or personal data.",
+  "license": "CC BY 4.0",
+  "language": "tr",
+  "version": "1.0.0",
+  "canonical_doi": "10.5281/zenodo.22062688",
+  "tags": [
+    "Turkish NLP",
+    "intent classification",
+    "text classification",
+    "electric vehicles",
+    "EV charging",
+    "natural language processing",
+    "benchmark dataset"
+  ],
+  "subjects": [
+    "Computer and Information Sciences",
+    "Artificial Intelligence",
+    "Natural Language Processing"
+  ],
+  "related_resources": [
+    "https://doi.org/10.5281/zenodo.22062688",
+    "https://tekpedal.com/acik-veri",
+    "https://github.com/gokimedia/turkish-ev-charging-intents",
+    "https://gokimedia.github.io/turkish-ev-charging-intents/",
+    "https://doi.org/10.6084/m9.figshare.33317592",
+    "https://www.openml.org/d/47280",
+    "https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset",
+    "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents"
+  ]
+}
