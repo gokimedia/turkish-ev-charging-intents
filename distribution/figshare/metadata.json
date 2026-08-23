@@ -1,6 +1,9 @@
 {
   "title": "Turkish EV Charging Intent Dataset",
   "item_type": "dataset",
+  "authors": [
+    "TekPedal"
+  ],
   "doi": "10.6084/m9.figshare.33317592",
   "public_record": "https://figshare.com/articles/dataset/Turkish_EV_Charging_Intent_Dataset/33317592",
   "description": "A balanced Turkish-language dataset containing 192 synthetic-editorial electric-vehicle and charging queries across eight intent classes. It includes fixed train (128), validation (32), and test (32) splits for intent classification, routing evaluation, and deterministic regression testing. The dataset contains no search logs, customer conversations, or personal data. Canonical documentation: https://tekpedal.com/acik-veri",
