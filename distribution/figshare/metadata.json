@@ -1,0 +1,59 @@
+{
+  "title": "Turkish EV Charging Intent Dataset",
+  "item_type": "dataset",
+  "description": "A balanced Turkish-language dataset containing 192 synthetic-editorial electric-vehicle and charging queries across eight intent classes. It includes fixed train (128), validation (32), and test (32) splits for intent classification, routing evaluation, and deterministic regression testing. The dataset contains no search logs, customer conversations, or personal data. Canonical documentation: https://tekpedal.com/acik-veri",
+  "version": "1.0.0",
+  "license": "CC BY 4.0",
+  "keywords": [
+    "Turkish NLP",
+    "intent classification",
+    "text classification",
+    "electric vehicles",
+    "EV charging",
+    "natural language processing",
+    "benchmark dataset"
+  ],
+  "categories": [
+    "Artificial Intelligence",
+    "Data Science",
+    "Natural Language Processing"
+  ],
+  "related_materials": [
+    {
+      "title": "Permanent Zenodo record",
+      "identifier": "10.5281/zenodo.22062688",
+      "identifier_type": "DOI",
+      "relation": "IsIdenticalTo"
+    },
+    {
+      "title": "Canonical GitHub repository",
+      "identifier": "https://github.com/gokimedia/turkish-ev-charging-intents",
+      "identifier_type": "URL",
+      "relation": "IsIdenticalTo"
+    },
+    {
+      "title": "TekPedal open-data documentation",
+      "identifier": "https://tekpedal.com/acik-veri",
+      "identifier_type": "URL",
+      "relation": "IsDocumentedBy"
+    },
+    {
+      "title": "Hugging Face dataset mirror",
+      "identifier": "https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents",
+      "identifier_type": "URL",
+      "relation": "IsIdenticalTo"
+    },
+    {
+      "title": "Kaggle dataset mirror",
+      "identifier": "https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset",
+      "identifier_type": "URL",
+      "relation": "IsIdenticalTo"
+    },
+    {
+      "title": "OpenML dataset mirror",
+      "identifier": "https://www.openml.org/d/47280",
+      "identifier_type": "URL",
+      "relation": "IsIdenticalTo"
+    }
+  ]
+}
