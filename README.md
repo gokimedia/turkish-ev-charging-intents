@@ -18,6 +18,9 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 - [OpenML dataset (ID 47280)](https://www.openml.org/d/47280)
 - [Figshare dataset (DOI: 10.6084/m9.figshare.33317592)](https://figshare.com/articles/dataset/Turkish_EV_Charging_Intent_Dataset/33317592)
 - [OSF public project](https://osf.io/h7xsk/)
+- [Internet Archive item](https://archive.org/details/turkish-ev-charging-intent-dataset-v1-0-0)
+- [Harvard Dataverse collection](https://dataverse.harvard.edu/dataverse/tekpedal)
+- [DagsHub dataset mirror](https://dagshub.com/gokimedia/turkish-ev-charging-intents/datasets/datasource/9258/gallery)
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
 - [Hugging Face interactive Space](https://huggingface.co/spaces/FoodSecuriry/tekpedal-ev-intent-explorer)
 
