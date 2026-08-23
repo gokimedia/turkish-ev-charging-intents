@@ -16,9 +16,18 @@ DESCRIPTION = """A compact Turkish-language text-classification dataset for rout
 electric-vehicle and charging questions. It contains 192 synthetic-editorial
 queries balanced across eight intent classes, with fixed train, validation, and
 test splits. It is not search-log or customer data and contains no personal
-data. Full provenance, limitations, and validation details are available at
-https://github.com/gokimedia/turkish-ev-charging-intents and
-https://tekpedal.com/acik-veri.
+data. The default prediction target is the intent column.
+
+Official resources:
+
+- [Permanent Zenodo record — DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688)
+- [Canonical GitHub repository](https://github.com/gokimedia/turkish-ev-charging-intents)
+- [TekPedal open-data documentation](https://tekpedal.com/acik-veri)
+- [Kaggle dataset mirror](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset)
+- [Hugging Face dataset mirror](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
+
+See the canonical repository and DOI record for full provenance, limitations,
+validation details, and responsible-use guidance.
 """
 
 
@@ -36,12 +45,14 @@ def main() -> None:
 
     dataset = openml.datasets.create_dataset(
         data=frame,
-        name="Turkish EV Charging Intent Dataset",
+        name="Turkish-EV-Charging-Intent-Dataset",
         description=DESCRIPTION,
         creator="TekPedal",
+        contributor=None,
         collection_date="2026-08-22",
         language="Turkish",
         licence="CC BY 4.0",
+        attributes="auto",
         default_target_attribute="intent",
         row_id_attribute="id",
         ignore_attribute=[
@@ -52,8 +63,9 @@ def main() -> None:
             "provenance",
         ],
         citation=(
-            "TekPedal (2026). Turkish EV Charging Intent Dataset, version 1.0.0. "
-            "https://github.com/gokimedia/turkish-ev-charging-intents"
+            "TekPedal. (2026). Turkish EV Charging Intent Dataset "
+            "(Version 1.0.0) [Dataset]. Zenodo. "
+            "https://doi.org/10.5281/zenodo.22062688"
         ),
         version_label="1.0.0",
         original_data_url="https://github.com/gokimedia/turkish-ev-charging-intents",

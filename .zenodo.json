@@ -36,6 +36,11 @@
       "resource_type": "dataset"
     },
     {
+      "identifier": "https://www.openml.org/d/47280",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
       "identifier": "https://tekpedal.com/acik-veri",
       "relation": "isDocumentedBy",
       "resource_type": "publication-other"

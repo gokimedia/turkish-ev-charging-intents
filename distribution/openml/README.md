@@ -10,3 +10,5 @@ python distribution/openml/publish.py
 ```
 
 OpenML can also read the API key from its local user configuration. Never commit the key or paste it into source files. After publication, record the returned dataset URL and ID in the canonical repository and TekPedal open-data page.
+
+Public record: [OpenML dataset 47280](https://www.openml.org/d/47280).
