@@ -14,6 +14,7 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 - [Interactive GitHub Pages explorer](https://gokimedia.github.io/turkish-ev-charging-intents/)
 - [Read the Docs publication](https://turkish-ev-charging-intents.readthedocs.io/tr/latest/)
 - [DEV Community technical article](https://dev.to/birdircik/building-an-open-turkish-ev-charging-intent-dataset-571p)
+- [Hashnode intent-routing guide](https://tekpedal-engineering.hashnode.dev/designing-a-reliable-intent-router-for-turkish-ev-applications)
 - [TekPedal open-data page](https://tekpedal.com/acik-veri)
 - [Zenodo archival record (DOI: 10.5281/zenodo.22062688)](https://doi.org/10.5281/zenodo.22062688)
 - [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset)
