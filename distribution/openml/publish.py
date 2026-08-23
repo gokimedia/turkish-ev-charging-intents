@@ -20,7 +20,7 @@ data. The default prediction target is the intent column.
 
 Official resources:
 
-- [Permanent Zenodo record — DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688)
+- [Permanent Zenodo record - DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688)
 - [Canonical GitHub repository](https://github.com/gokimedia/turkish-ev-charging-intents)
 - [TekPedal open-data documentation](https://tekpedal.com/acik-veri)
 - [Kaggle dataset mirror](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset)
