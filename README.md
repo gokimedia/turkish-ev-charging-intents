@@ -17,10 +17,11 @@ Created and maintained by [TekPedal](https://tekpedal.com/), an independent EV c
 - [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset)
 - [OpenML dataset (ID 47280)](https://www.openml.org/d/47280)
 - [Figshare dataset (DOI: 10.6084/m9.figshare.33317592)](https://figshare.com/articles/dataset/Turkish_EV_Charging_Intent_Dataset/33317592)
+- [OSF public project](https://osf.io/h7xsk/)
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/turkish-ev-charging-intents)
 - [Hugging Face interactive Space](https://huggingface.co/spaces/FoodSecuriry/tekpedal-ev-intent-explorer)
 
-Publication metadata and repeatable export helpers for Zenodo, Kaggle, OpenML, and Figshare are maintained in [`distribution/`](distribution/). Platform URLs are added here only after the corresponding public record is live.
+Publication metadata and repeatable export helpers for Zenodo, Kaggle, OpenML, Figshare, and OSF are maintained in [`distribution/`](distribution/). Platform URLs are added here only after the corresponding public record is live.
 
 ## Dataset at a glance
 

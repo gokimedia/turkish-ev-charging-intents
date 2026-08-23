@@ -50,7 +50,7 @@ Report macro F1 alongside per-class precision, recall, F1, and the confusion mat
 
 ## Maintenance
 
-TekPedal maintains the dataset. Releases follow semantic versioning. Record or split changes require a new version and changelog entry. Version 1.0.0 is permanently archived on Zenodo under [DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688) and mirrored on [Kaggle](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset), [OpenML](https://www.openml.org/d/47280), and [Figshare](https://doi.org/10.6084/m9.figshare.33317592); older releases remain available through Git tags and external archives.
+TekPedal maintains the dataset. Releases follow semantic versioning. Record or split changes require a new version and changelog entry. Version 1.0.0 is permanently archived on Zenodo under [DOI 10.5281/zenodo.22062688](https://doi.org/10.5281/zenodo.22062688) and mirrored on [Kaggle](https://www.kaggle.com/datasets/morrispoint/turkish-ev-charging-intent-dataset), [OpenML](https://www.openml.org/d/47280), [Figshare](https://doi.org/10.6084/m9.figshare.33317592), and the [Open Science Framework](https://osf.io/h7xsk/); older releases remain available through Git tags and external archives.
 
 ## Licensing
 

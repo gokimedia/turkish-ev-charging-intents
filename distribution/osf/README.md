@@ -17,12 +17,12 @@ Croissant metadata, README, datasheet, citation metadata, and license.
 - License: CC BY 4.0
 - Primary language: Turkish
 - Canonical DOI: `10.5281/zenodo.22062688`
-- Visibility during preparation: Private
-- Final visibility: Public
+- Public project: <https://osf.io/h7xsk/>
+- Final visibility: Public (published 2026-08-23)
 
 Use `metadata.json` for the project metadata and `wiki-home.md` for the public
 Home wiki. Keep the Zenodo DOI as the canonical citation identifier rather than
 minting another DOI for the same version.
 
-After publication, add the public OSF project URL to the repository metadata,
-the TekPedal open-data page, and the other repository records where supported.
+The public OSF project URL is included in the repository metadata and the
+TekPedal open-data page. Add it to other repository records where supported.

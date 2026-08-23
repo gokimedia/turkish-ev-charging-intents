@@ -6,6 +6,7 @@
   "language": "tr",
   "version": "1.0.0",
   "canonical_doi": "10.5281/zenodo.22062688",
+  "public_url": "https://osf.io/h7xsk/",
   "tags": [
     "Turkish NLP",
     "intent classification",
@@ -21,6 +22,7 @@
     "Natural Language Processing"
   ],
   "related_resources": [
+    "https://osf.io/h7xsk/",
     "https://doi.org/10.5281/zenodo.22062688",
     "https://tekpedal.com/acik-veri",
     "https://github.com/gokimedia/turkish-ev-charging-intents",
